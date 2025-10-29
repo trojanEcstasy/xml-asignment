@@ -53,7 +53,8 @@
       <City>Chicago</City>
       <State>IL</State>
       <Zip>60611</Zip>
-    <!-- </Address>  <-- intentionally removed -->
+    <!-- Address closing tag intentionally removed -->
+
   </Hotel>
 
   <!-- (5) TWO NAME ELEMENTS -->
