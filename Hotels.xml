@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Hotels xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="Hotels.xsd">
+
+  <!-- Example similar to the figure -->
+  <Hotel NearestAirport="Sky Harbor" Rating="4.2">
+    <Name>Westin Tempe</Name>
+    <Phone>480-968-8885</Phone>
+    <Phone>800-937-8461</Phone>
+    <Address>
+      <Number>11</Number>
+      <Street>E. 7th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel NearestAirport="JFK" Rating="4.4">
+    <Name>Hilton Midtown</Name>
+    <Phone>212-555-0199</Phone>
+    <Address>
+      <Number>1335</Number>
+      <Street>6th Ave</Street>
+      <City>New York</City>
+      <State>NY</State>
+      <Zip>10019</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel NearestAirport="LAX">
+    <Name>Hyatt Regency Los Angeles</Name>
+    <Phone>213-555-0173</Phone>
+    <Address>
+      <Number>711</Number>
+      <Street>Hope St</Street>
+      <City>Los Angeles</City>
+      <State>CA</State>
+      <Zip>90017</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel NearestAirport="ORD" Rating="4.1">
+    <Name>Sheraton Grand Chicago</Name>
+    <Phone>312-555-0134</Phone>
+    <Address>
+      <Number>301</Number>
+      <Street>E North Water St</Street>
+      <City>Chicago</City>
+      <State>IL</State>
+      <Zip>60611</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel NearestAirport="MCO">
+    <Name>Renaissance Orlando</Name>
+    <Phone>407-555-0110</Phone>
+    <Address>
+      <Number>6677</Number>
+      <Street>Sea Harbor Dr</Street>
+      <City>Orlando</City>
+      <State>FL</State>
+      <Zip>32821</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel NearestAirport="SEA" Rating="4.6">
+    <Name>Fairmont Olympic</Name>
+    <Phone>206-555-0127</Phone>
+    <Address>
+      <Number>411</Number>
+      <Street>University St</Street>
+      <City>Seattle</City>
+      <State>WA</State>
+      <Zip>98101</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel NearestAirport="BOS" Rating="4.0">
+    <Name>Boston Park Plaza</Name>
+    <Phone>617-555-0191</Phone>
+    <Address>
+      <Number>50</Number>
+      <Street>Park Plaza</Street>
+      <City>Boston</City>
+      <State>MA</State>
+      <Zip>02116</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel NearestAirport="ATL">
+    <Name>Omni Atlanta Hotel at CNN Center</Name>
+    <Phone>404-555-0102</Phone>
+    <Address>
+      <Number>100</Number>
+      <Street>CNN Center NW</Street>
+      <City>Atlanta</City>
+      <State>GA</State>
+      <Zip>30303</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel NearestAirport="DEN" Rating="4.3">
+    <Name>The Brown Palace Hotel</Name>
+    <Phone>303-555-0186</Phone>
+    <Address>
+      <Number>321</Number>
+      <Street>17th St</Street>
+      <City>Denver</City>
+      <State>CO</State>
+      <Zip>80202</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel NearestAirport="DFW">
+    <Name>Hotel Crescent Court</Name>
+    <Phone>214-555-0155</Phone>
+    <Address>
+      <Number>400</Number>
+      <Street>Crescent Ct</Street>
+      <City>Dallas</City>
+      <State>TX</State>
+      <Zip>75201</Zip>
+    </Address>
+  </Hotel>
+
+  <Hotel NearestAirport="SFO" Rating="4.5">
+    <Name>Palace Hotel San Francisco</Name>
+    <Phone>415-555-0144</Phone>
+    <Address>
+      <Number>2</Number>
+      <Street>New Montgomery St</Street>
+      <City>San Francisco</City>
+      <State>CA</State>
+      <Zip>94105</Zip>
+    </Address>
+  </Hotel>
+
+</Hotels>
