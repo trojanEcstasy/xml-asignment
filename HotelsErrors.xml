@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- (1) WRONG ROOT NAME: should be <Hotels> -->
+<Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="Hotels.xsd">
+
+  <!-- OK hotel -->
+  <Hotel NearestAirport="Sky Harbor" Rating="4.2">
+    <Name>Westin Tempe</Name>
+    <Phone>480-968-8885</Phone>
+    <Phone>800-937-8461</Phone>
+    <Address>
+      <Number>11</Number>
+      <Street>E. 7th St</Street>
+      <City>Tempe</City>
+      <State>AZ</State>
+      <Zip>85281</Zip>
+    </Address>
+  </Hotel>
+
+  <!-- (2) MISSING REQUIRED ATTRIBUTE: NearestAirport removed -->
+  <Hotel Rating="4.4">
+    <Name>Hilton Midtown</Name>
+    <Phone>212-555-0199</Phone>
+    <Address>
+      <Number>1335</Number>
+      <Street>6th Ave</Street>
+      <City>New York</City>
+      <State>NY</State>
+      <Zip>10019</Zip>
+    </Address>
+  </Hotel>
+
+  <!-- (3) MISSING REQUIRED ELEMENT: no Phone element -->
+  <Hotel NearestAirport="LAX">
+    <Name>Hyatt Regency Los Angeles</Name>
+    <Address>
+      <Number>711</Number>
+      <Street>Hope St</Street>
+      <City>Los Angeles</City>
+      <State>CA</State>
+      <Zip>90017</Zip>
+    </Address>
+  </Hotel>
+
+  <!-- (4) ADDRESS HAS NO CLOSING TAG: malformed XML -->
+  <Hotel NearestAirport="ORD" Rating="4.1">
+    <Name>Sheraton Grand Chicago</Name>
+    <Phone>312-555-0134</Phone>
+    <Address>
+      <Number>301</Number>
+      <Street>E North Water St</Street>
+      <City>Chicago</City>
+      <State>IL</State>
+      <Zip>60611</Zip>
+    <!-- </Address>  <-- intentionally removed -->
+  </Hotel>
+
+  <!-- (5) TWO NAME ELEMENTS -->
+  <Hotel NearestAirport="MCO">
+    <Name>Renaissance Orlando</Name>
+    <Name>REN Orlando Duplicate</Name>
+    <Phone>407-555-0110</Phone>
+    <Address>
+      <Number>6677</Number>
+      <Street>Sea Harbor Dr</Street>
+      <City>Orlando</City>
+      <State>FL</State>
+      <Zip>32821</Zip>
+    </Address>
+  </Hotel>
+
+</Hotel>
