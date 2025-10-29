@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- (1) WRONG ROOT NAME: should be <Hotels> -->
+<!-- intentionally malformed for assignment -->
 <Hotel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xsi:noNamespaceSchemaLocation="Hotels.xsd">
+       xsi:noNamespaceSchemaLocation="https://trojanecstasy.github.io/xml-asignment/Hotels.xsd">
+
 
   <!-- OK hotel -->
   <Hotel NearestAirport="Sky Harbor" Rating="4.2">
